@@ -17,16 +17,12 @@ body {
 
 
 header {
-    background-image: url("../images/banner.png");
-    
-    background-image: linear-gradient(rgb(20, 114, 183, 0.2));
-    width: 1440px;
-    height: 530px;
-    margin: auto;
+    background-image: url("../images/banner.png"), linear-gradient(black, #1473b750, black);
     text-align: center;
+    height: 500px;
     padding-top: 50px;
-    background-repeat: no-repeat;
-    object-fit: none;
+    background-position: 100%;
+    
     
 }
 
@@ -52,14 +48,14 @@ button {
 
 
 h2 {
-  color: #1472B7;
+  color: #31A8DD;
   font-weight: 700;
   font-size: 32px;
 }
 
 main {
    text-align: center;
-   margin: auto;
+  
    
 }
 
@@ -69,8 +65,46 @@ main {
 }
 
 span {
-    color: #1472B7;
+    color: #31A8DD;
 }
+
+.modules-list{
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.modules{
+    
+    width: 535px;
+    height: 37px;
+    background-color: #252525;
+    border: 2px solid #31A8DD;
+    border-radius: 57px;
+    margin:  10px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.container-woman {
+    background-image: url("../images/woman-code.png");
+    background-attachment: fixed;
+    height: 274px;
+    background-size: cover;
+    text-align: left;
+    background-position: 100%;
+    font-size: 40px;
+    font-weight: 900;
+    padding: 122px;
+    
+    
+}
+
+
+
+
 
 
 
