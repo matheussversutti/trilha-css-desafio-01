@@ -43,7 +43,7 @@ button {
     color: #31A8DD;
     font-size: 16px;
     font-weight: 700;
-    margin-top: 5px;
+    margin-top: 20px;
 }
 
 
@@ -69,7 +69,7 @@ span {
 }
 
 .modules-list{
-    margin: 10px auto;
+    margin: 15px auto 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,18 +88,47 @@ span {
     padding-top: 15px;
 }
 
-.container-woman {
+.container-woman-code {
     background-image: url("../images/woman-code.png");
     background-attachment: fixed;
     height: 274px;
     background-size: cover;
     text-align: left;
-    background-position: 100%;
     font-size: 40px;
     font-weight: 900;
     padding: 122px;
     
     
+}
+
+#container-evolua{
+    text-align: center;
+    margin: 5px;
+}
+
+.container-professional-challenges{
+    margin: auto;
+}
+
+img {
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 60px;
+    background-image: linear-gradient(black, #1473b72d);
+    height: 120px;
+    
+}
+
+a {
+    color: #31A8DD;
+    text-decoration:none;
+}
+
+p {
+    margin: 2px;
 }
 
 
