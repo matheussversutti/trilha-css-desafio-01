@@ -51,24 +51,30 @@ h2 {
   color: #31A8DD;
   font-weight: 700;
   font-size: 32px;
+  text-transform: uppercase;
+  margin-top: 100px;
 }
 
 main {
    text-align: center;
-  
+   
    
 }
 
-.modules-list {
-    width: 792px;
-    height: 325px;
-}
 
 span {
     color: #31A8DD;
 }
 
+#course-content{
+    text-align: center;
+    margin: 5px;
+}
+
+
 .modules-list{
+    width: 792px;
+    height: 325px;
     margin: 15px auto 0px;
     display: flex;
     flex-direction: column;
@@ -101,10 +107,10 @@ span {
     
 }
 
-#container-evolua{
-    text-align: center;
-    margin: 5px;
+#text-container-woman{
+    text-shadow: 3px 3px #31A8DD;
 }
+
 
 .container-professional-challenges{
     margin: auto;
